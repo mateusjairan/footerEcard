@@ -18,8 +18,10 @@ body{
     grid-template-rows: repeat(4, 1fr);
     justify-content: center;
     align-items: center;
-    row-gap: 24px;
-    column-gap: 40px;
+    row-gap: 40px;
+    column-gap: 24px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 .cardContainer{

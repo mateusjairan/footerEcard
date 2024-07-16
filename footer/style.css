@@ -1,3 +1,9 @@
+
+
+
+
+
+
 .footerContainer{
 position: absolute;
 width: 1440px;
@@ -46,15 +52,19 @@ mix-blend-mode: normal;
 
 }
 
-.footerH1{
+.footerLogoTexto{
     /* Digital Store */
-
-position: absolute;
+display: flex;
+/* position: absolute; */
 left: 16.21%;
 right: 0%;
 top: 0%;
 bottom: 0%;
-
+margin-top: 72px;
+margin-right: 1083px;
+margin-bottom: 338px;
+margin-left: 145px;
+flex-wrap: nowrap;
 font-family: 'Inter';
 font-style: normal;
 font-weight: 600;
@@ -68,3 +78,17 @@ color: #FFFFFF;
 
 
 }
+
+.footerLogo{
+    /* Group */
+
+/* position: absolute; */
+display: flex;
+margin-top: 77px;
+margin-right: 8px;
+margin-bottom: 344px;
+margin-left: 104px;
+
+
+}
+

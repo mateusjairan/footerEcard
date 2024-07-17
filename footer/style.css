@@ -2,7 +2,9 @@
 
 
 .rodape{
-    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 454px;
     left: 0px;
     top: 0px;
@@ -26,6 +28,7 @@ top: 0px;
 }
 
 .linha{
+    margin-right: 100px;
 position: absolute;
 width: 1240px;
 height: 1px;

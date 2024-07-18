@@ -1,85 +1,41 @@
-/* Estilos para o contêiner do rodapé */
-.footerContainer {
-    position: absolute;
-    width: 100%; /* Utiliza toda a largura disponível */
-    height: 454px; /* Altura fixa do rodapé */
-    left: 0;
-    top: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center; /* Centraliza verticalmente */
-    align-items: center; /* Centraliza horizontalmente */
-    background-color: #1F1F1F; /* Cor de fundo */
+/* .footerContainer{
+display: flex;
+height: 454px;
+width: 100vw;
+background-color: #1F1F1F;
 }
 
-/* Estilos para a linha horizontal */
-.linha {
-    width: 1240px;
-    height: 1px;
-    background: #FFFFFF;
-    opacity: 0.3;
-    margin-top: 30px; /* Espaçamento superior */
+.footerLogo{
+display: flex;
+margin-top: 72px;
+margin-right: 1083px;
+margin-bottom: 338px;
+margin-left: 104px;
+width: 253px;
+height: 44px;
+left: 104px;
+top: 72px;
 }
 
-/* Estilos para o texto de direitos autorais */
-.copyrightFooter {
-    position: absolute;
-    width: 140px;
-    height: 24px;
-    left: 50%; /* Centraliza horizontalmente */
-    transform: translateX(-50%); /* Corrige a posição para o centro */
-    top: 408px;
-    text-wrap: nowrap;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 13px;
-    line-height: 24px;
-    color: #FFFFFF;
-    mix-blend-mode: normal;
-}
+.descricao{
+display: flex;
+width: 307px;
+height: 78px;
+left: 100px;
+top: 151px;
 
-/* Estilos para o texto do nome da empresa */
-.footerLogoTexto {
-    display: flex;
-    font-weight: 600;
-    font-size: 36.3951px;
-    line-height: 44px;
-    letter-spacing: -0.01em;
-    margin-top: 72px;
-    font-family: 'Inter';
-    color: #FFFFFF;
-}
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+/* or 162% */
 
-/* Estilos para o logotipo da empresa */
-.footerLogo {
-    display: flex;
-    margin-top: 77px;
-}
+/* white */
+/* color: #FFFFFF; */
 
-/* Estilos para a descrição */
-.descricao {
-    position: absolute;
-    width: 307px;
-    height: 78px;
-    left: 100px;
-    top: 151px;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 26px;
-    color: #FFFFFF;
-}
 
-/* Estilos para os ícones das redes sociais */
-.icones {
-    display: flex;
-    justify-content: space-between;
-    position: absolute;
-    left: 6.94%;
-    right: 84.44%;
-    top: 59.25%;
-    bottom: 36.23%;
-    gap: 35.9px;
+footer{
+    background-color: black;
+    color: white;
 }

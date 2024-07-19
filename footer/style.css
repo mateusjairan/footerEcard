@@ -36,6 +36,53 @@ line-height: 26px;
 
 
 footer{
-    background-color: black;
-    color: white;
+    background-color: #1F1F1F;
+    
+}
+
+.container{
+    display: flex;
+    width: 100vw;
+    height: 454px;
+}
+
+.footerLogo{
+    margin-top: 72px;
+    margin-right: 1083px;
+    /* margin-bottom: 338px; */
+    margin-left: 104px;
+
+}
+
+.descricao{
+    /* Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore. */
+margin-top: 35px;
+margin-right: 1033px;
+/* margin-bottom: 225px; */
+margin-left: 100px;    
+width: 307px;
+height: 78px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+/* or 162% */
+
+/* white */
+color: #FFFFFF;
+
+
+}
+
+.icones{
+margin-top: 40px;
+display: flex;
+margin-right: 1215.88px;
+margin-left: 100px;
+justify-content: space-between;
+gap: 35.9px;
+
+
 }

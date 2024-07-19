@@ -146,3 +146,142 @@ display: flex;
 flex-direction: column;
 margin-top: 72px;
 }
+
+.categoriasDiv{
+display: flex;
+flex-direction: column;
+margin-top: 72px;
+}
+
+.categoriasTitulo{
+width: 96px;
+height: 22px;
+left: 849px;
+top: 72px;
+margin-bottom: 28px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+
+/* white */
+color: #FFFFFF;
+
+
+
+}
+
+.categoriasLinks{
+    /* Sobre Drip Store Segurança Wishlist Blog Trabalhe conosco Meus Pedidos */
+display: flex;
+width: 135px;
+height: 228px;
+left: 612px;
+top: 122px;
+flex-direction: column;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 38px;
+/* or 238% */
+
+/* white */
+color: #FFFFFF;
+
+
+    
+}
+
+.contatoDiv{
+display: flex;
+flex-direction: column;
+margin-top: 72px;
+margin-left: 1113;
+}
+
+.contatoTitulo{
+/* Contato */
+
+width: 71px;
+height: 22px;
+margin-bottom: 28px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+
+/* white */
+color: #FFFFFF;
+
+
+}
+
+.contatoEndereco{
+/* Av. Santos Dumont, 1510 - 1 andar - Aldeota, Fortaleza - CE, 60150-161 */
+
+width: 231px;
+height: 78px;
+top: 122px;
+margin-bottom: 14px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+/* or 162% */
+
+/* white */
+color: #FFFFFF;
+
+
+}
+
+.contatoNumero{
+    /* Av. Santos Dumont, 1510 - 1 andar - Aldeota, Fortaleza - CE, 60150-161 */
+
+
+width: 231px;
+height: 78px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+/* or 162% */
+
+/* white */
+color: #FFFFFF;
+
+
+
+}
+
+.copyrightFooter{
+
+display: flex;
+width: 140px;
+height: 24px;
+margin-top: 408px;
+margin-bottom: 22px;
+justify-content: center;
+align-items: center;
+text-wrap: nowrap;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 24px;
+color: #FFFFFF;
+
+mix-blend-mode: normal;
+
+}

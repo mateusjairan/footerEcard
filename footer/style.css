@@ -50,7 +50,7 @@ footer{
     margin-top: 72px;
     margin-right: 1083px;
     /* margin-bottom: 338px; */
-    margin-left: 104px;
+    margin-left: 4px;
 
 }
 
@@ -59,7 +59,7 @@ footer{
 margin-top: 35px;
 margin-right: 1033px;
 /* margin-bottom: 225px; */
-margin-left: 100px;    
+/* margin-left: 100px;     */
 width: 307px;
 height: 78px;
 
@@ -80,9 +80,69 @@ color: #FFFFFF;
 margin-top: 40px;
 display: flex;
 margin-right: 1215.88px;
-margin-left: 100px;
+/* margin-left: 100px; */
 justify-content: space-between;
 gap: 35.9px;
 
 
+}
+
+hr{
+
+width: 1240px;
+height: 1px;
+/* left: 100px; */
+top: 384px;
+
+/* white */
+background: #FFFFFF;
+opacity: 0.3;
+
+}
+
+.infoTitulo{
+    /* Informação */
+
+/* position: absolute; */
+display: flex ;
+width: 99px;
+height: 22px;
+margin-bottom: 28px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+
+/* white */
+color: #FFFFFF;
+
+
+}
+
+.infoLinks{
+    /* Sobre Drip Store Segurança Wishlist Blog Trabalhe conosco Meus Pedidos */
+display: flex;
+width: 135px;
+height: 228px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 38px;
+flex-direction: column;
+/* or 238% */
+
+/* white */
+color: #FFFFFF;
+
+
+}
+
+.infoDiv{
+display: flex;
+flex-direction: column;
+margin-top: 72px;
 }
